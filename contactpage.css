@@ -1,0 +1,121 @@
+#container{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 26%;
+    background-color: #040460;
+}
+.imagelogo0{
+    margin-left: 100px;
+    float: left;
+}
+.logo{
+    width: 100px;
+    padding-top: 52px;
+}
+.textlogo{
+    float: left;
+    margin-left: 60px;
+    color: yellow;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.imagelogo1{
+    float: left;
+}
+.journallogo{
+    width: 250px;
+    padding: 45px 0 0 0;
+}
+#navbar{
+    position: absolute;
+    top: 162px;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(130,130,130);
+}
+.navul{
+    list-style: none;
+    margin-left: 70px;
+}
+.navli{
+    float: left;
+    padding: 6px 40px 0 0;
+}
+#mainbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    top: 225px;
+    left: 0;
+}
+.contact{
+    float: left;
+    margin-left: 110px;
+    margin-top: 40px;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+}
+.us{
+    border-bottom: 2px black dotted;
+}
+.cu{
+    padding-left: 10px;
+    font-size: 33px;
+    color:black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a0{
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(2, 2, 128);
+}
+.lh{
+    line-height: 30px;
+}
+.map{
+    width: 600px;
+    height: 420px;
+    border: 0;
+}
+.form0{
+    float: left;
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    margin-left: 110px;
+    margin-top: 40px;
+    background-color: white;
+}
+.fform{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    width: 370px;
+    height: 20px;
+}
+#footer{
+    position: absolute;
+    top: 950px;
+    left: 0;
+    height: auto;
+    width: 100%;
+    background-color: #040460;
+    text-align: center;
+    color: yellow;
+}
