@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head><title>Form</title></head>
+    <style>
+        input[type = text]{
+            background-color: skyblue;
+        }
+        input[list = languages]{
+            background-color: slateblue;
+        }
+        input[type=submit], input[type=reset]{
+            background-color: burlywood
+        }
+        input[type=submit]:hover, input[type=reset]:hover{
+            background-color: plum;
+        }
+    </style>
     <body>
-        <form>
+        <form action = "link1.html">
             <label for = "fname">First Name:</label><br>
             <input type = "text" id = "fname" name = "fname"><br>
             <label for = "lname">Last Name:</label><br>
             <input type = "text" id = "lname" name = "lname"><br>
-            <button>Submit</button>
-            <input type = "reset"><br><br><br></br>
-            <label for = "datalist">Choose your favourite language:</label>
+            <label for = "datalist">Choose your favourite language:</label><br>
             <input list = "languages" id = "datalist" name = "datalist">
             <datalist id = "languages">
                 <option value = "Python"></option>
                 <option value = "PHP"></option>
                 <option value = "Java"></option>
                 <option value = "C#"></option>
-            </datalist>
+            </datalist><br><br>
+            <input type = "reset">
             <input type = "submit">
         </form>
     </body>
